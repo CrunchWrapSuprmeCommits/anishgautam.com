@@ -4,6 +4,13 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(
+            to right,
+            #dfbf9f 0%,
+            #dfbf9f 33%,
+            white 33%,
+            white 100%
+            );
 }
 
   .topnav {
