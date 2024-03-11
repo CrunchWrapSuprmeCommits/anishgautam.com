@@ -15,26 +15,26 @@ body {
 
   .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: black;
   }
   .name_topleft {
     font-size: 26px;
   }
   .topnav a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
   }
   
   .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
   .topnav a.active {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
   }
   
   .topnav-right {
@@ -44,7 +44,7 @@ body {
     font-size: 14px;
   }
 
-/* Content */
+/* HOME PAGE */
 .content {
     /* flex: 1; */
     padding: 20px;
@@ -100,17 +100,42 @@ a:hover {
     opacity: 0.7;
 }
 
-/* Footer */
-/* .footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    float: center;
-} */
+/* RESUME */
+.skills_exp{
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+.prj_left {
+  text-align: left;
+  display: table-cell;
+}
+
+.prj_right {
+  text-align: right;
+  display: table-cell;
+}
+
+
+
+/* PROJECTS */
+
+
+
+
+
+/* CONTACT */
+
+
+
+
+
+/* ABOUT */
+
+
+
+
 
 .footer {
   position: fixed;
@@ -120,6 +145,4 @@ a:hover {
     background-color: black;
     color: white;
     text-align: center;
-    /* z-index: 1; */
-    /* height: 10px; */
 }
