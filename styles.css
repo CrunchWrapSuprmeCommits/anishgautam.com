@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+}
+
+header{
+    text-align: center;
+}
+
+
+nav {
+    background-color: black;
+    text-align: right;
+    width: 90%;
+    margin: auto;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-left:10%;
+}
+
+section.about-me {
+    text-align: right;
+    margin-right: 10%;
+    /*margin-left: 40%;*/
+    float: right;
+}
+
+section.about-me > img {
+    float: left;
+    width: 50%;
+}
+
+/*section.education {*/
+/*    float: right;*/
+/*}*/
+
+/*section.experience {*/
+/*    float: right;*/
+/*}*/
+
+/*section.project {*/
+/*    float: left;*/
+/*}*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
