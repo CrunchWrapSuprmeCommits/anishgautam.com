@@ -1,56 +1,89 @@
 body {
     background-color: beige;
+    margin-right: 5%;
+    margin-left:5%;
+    height: 2000px;
 }
 
-header{
+header {
     text-align: center;
 }
 
+#navbar {
 
-nav {
-    background-color: black;
-    text-align: right;
-    width: 90%;
-    margin: auto;
+
 }
 
 nav > a {
+    background-color: black;
     color: white;
     text-decoration: none;
 }
 
 main {
-    margin-left:10%;
+
 }
 
-section.about-me {
-    text-align: right;
-    margin-right: 10%;
+h2 {
+    text-align: center;
+}
+
+.about-me {
+    position: relative;
+    background-color: orange;
     /*margin-left: 40%;*/
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.education {
+    background-color: indianred;
+}
+section.education {
+    position: relative;
+    text-align: left;
+}
+
+.date {
     float: right;
 }
 
-section.about-me > img {
-    float: left;
-    width: 50%;
+.skills {
+    background-color: deepskyblue;
+    text-align: center;
 }
 
-/*section.education {*/
-/*    float: right;*/
-/*}*/
+.experience {
+    background-color: greenyellow;
+}
+section.experience {
+    position: relative;
+}
 
-/*section.experience {*/
-/*    float: right;*/
-/*}*/
+ul.a, ul.b {
+    list-style-type: none;
+}
 
-/*section.project {*/
-/*    float: left;*/
-/*}*/
+.project {
+    background-color: plum;
+}
+
+section.project {
+    position: relative;
+}
 
 footer {
     background-color: black;
     color: white;
-    text-align: center;
-    width: 90%;
     margin: auto;
+}
+
+footer > div {
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
