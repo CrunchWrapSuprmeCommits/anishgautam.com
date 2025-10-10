@@ -2,7 +2,7 @@ body {
     background-color: beige;
     margin-right: 5%;
     margin-left:5%;
-    height: 2000px;
+    /*height: 2000px;*/
 }
 
 header {
@@ -15,8 +15,8 @@ header {
 }
 
 nav > a {
-    background-color: black;
-    color: white;
+    /*background-color: black;*/
+    /*color: white;*/
     text-decoration: none;
 }
 
@@ -30,20 +30,21 @@ h2 {
 
 .about-me {
     position: relative;
-    background-color: orange;
+    /*background-color: orange;*/
     /*margin-left: 40%;*/
     width: 100%;
     height: 100%;
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 .education {
-    background-color: indianred;
+    /*background-color: indianred;*/
 }
+
 section.education {
     position: relative;
     text-align: left;
@@ -53,28 +54,58 @@ section.education {
     float: right;
 }
 
+.specialization {
+    float: right;
+}
+
 .skills {
-    background-color: deepskyblue;
-    text-align: center;
+    /*background-color: deepskyblue;*/
+    text-align: left;
+    /*font-weight: normal;*/
+}
+
+.skills li {
+    list-style-type: none;
+}
+
+.category {
+    font-weight: bold;
 }
 
 .experience {
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
 }
+
 section.experience {
     position: relative;
 }
 
-ul.a, ul.b {
+.experience ul.a {
     list-style-type: none;
+    margin-left: -5%;
+    font-weight: bold;
+}
+
+.experience ul.b {
+    font-weight: normal;
 }
 
 .project {
-    background-color: plum;
+    /*background-color: plum;*/
 }
 
 section.project {
     position: relative;
+}
+
+.project ul.a {
+    list-style-type: none;
+    margin-left: -5%;
+    font-weight: bold;
+}
+
+.project ul.b {
+    font-weight: normal;
 }
 
 footer {
